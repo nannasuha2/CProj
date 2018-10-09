@@ -4,9 +4,7 @@
 
 /*All declares*/
 int pEuler_Mul(int);
-long long int pEuler_Fib(long long int);
-
-
+int pEuler_Fib(int);
 
 
 /*All defines*/
@@ -28,10 +26,10 @@ int pEuler_Mul(int var)
 
 }
 
-long long int pEuler_Fib(long long int var)
+int pEuler_Fib(int var)
 {
-	long int sum = 2;
-	long long int a = 1, b = 2, c;
+	int sum = 2;
+	int a = 1, b = 2, c;
 
 	c = 0;
 	while(c < var)

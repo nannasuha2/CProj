@@ -4,10 +4,8 @@
 
 int main()
 {
-	long long int sum = pEuler_Fib(4000000);
-	//long long int sum;
+	int sum = pEuler_Fib(4000000);
 	std::cout << sum << std::endl;
-	//std::cout << sizeof(sum);
 	//std::cin.get();
 	return 0;
 }
