@@ -4,7 +4,7 @@
 
 int main()
 {
-	int sum = pEuler_Fib(4000000);
+	long long int sum = pEuler_Fac(600851475143);
 	std::cout << sum << std::endl;
 	//std::cin.get();
 	return 0;

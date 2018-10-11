@@ -5,6 +5,7 @@
 /*All declares*/
 int pEuler_Mul(int);
 int pEuler_Fib(int);
+long long int pEuler_Fac(long long int);
 
 
 /*All defines*/
@@ -44,4 +45,29 @@ int pEuler_Fib(int var)
 	} 
 	
 	return sum;
+}
+
+long long int pEuler_Fac(long long int var)
+{
+	long long int a, b;
+	long long int maxFac;
+
+	a = 2;
+	do {
+
+		if (var % a == 0)
+		{
+			b = var / a;
+			var = b;
+		}
+		else
+		{
+			a++;
+		}
+		
+	} while (a < var);
+
+	maxFac = var;
+
+	return maxFac;
 }

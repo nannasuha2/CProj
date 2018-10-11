@@ -25,21 +25,23 @@
 
 
 
-   _notes:_
+   	_notes:_
 
-   Fibonacci is a natural's code. Means when observe number of flower petal, number of stigma or pineapple skin...its followed Fibonacci rules.
+​	Fibonacci is a natural's code. Means when observe number of flower petal, number of stigma or
 
-   By adding previous two numbers start with 0, 1
+​	pineapple skin...its followed Fibonacci rules.
 
-   0, 1, ...
+   	By adding previous two numbers start with 0, 1
 
-   0+1 =1
+   	0, 1, ...
 
-   0, 1, 1...
+   	0+1 =1
 
-   1+1=2
+  	 0, 1, 1...
 
-   0,1,1,2 ...
+  	 1+1=2
+
+   	0,1,1,2 ...
 
 
 
@@ -54,6 +56,33 @@
 3. The prime factors of 13195 are 5, 7, 13 and 29.
 
    What is the largest prime factor of the number 600851475143 ?
+
+   _answer:_
+
+
+
+   _notes:_
+
+   **what is a prime factor?**
+
+   a number that can be divided by prime number.
+
+   Eg: 
+
+   ```mermaid
+   graph TD
+   A[228]-->a1[2]
+   A-->B[114]
+   B-->b1[2]
+   B-->C[57]
+   C-->c1[3]
+   C-->D[19]
+   
+   
+   
+   
+   ```
+
 
 4. A palindromic number reads the same both ways. The largest palindrome  made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
