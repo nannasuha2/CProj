@@ -59,6 +59,10 @@
 
    _answer:_
 
+   ```c ++
+   long long int pEuler_Fac(long long int);
+   ```
+
 
 
    _notes:_
@@ -87,5 +91,35 @@
 4. A palindromic number reads the same both ways. The largest palindrome  made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
    Find the largest palindrome made from the product of two 3-digit numbers.
+
+   _answer:_ **906609**
+
+   ``` c++
+   int pEuler_Pal(int dig)
+   ```
+
+   _notes:_
+
+   Palindrome is a number that when reading from reverse sequence will result the same.
+
+5. 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+   What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+6. The sum of the squares of the first ten natural numbers is,
+
+   $ 1^2 + 2^2 + ... + 10^2 = 385 $ 
+
+   The square of the sum of the first ten natural numbers is,
+
+   $ (1 + 2 + ... + 10)^2 = 55^2 = 3025 $
+
+   Hence the difference between the sum of the squares of the first ten  natural numbers and the square of the sum is 3025 − 385 = 2640.
+
+   Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+7. By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+
+   What is the 10 001st prime number?
 
 
