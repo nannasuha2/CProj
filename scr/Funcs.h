@@ -9,6 +9,7 @@ int pEuler_Fib(int);
 long long int pEuler_Fac(long long int);
 int pEuler_Pal(int);
 unsigned long long int pEuler_5(int);
+int pEuler_SumSq(int);
 
 
 /*All defines*/
@@ -151,3 +152,15 @@ unsigned long long int pEuler_5(int var)
 	return min;
 }
 
+int pEuler_SumSq(int var)
+{
+	int sum = 0, sumSq = 0, Dif;
+
+	for (int x = 1; x <= var; x++)
+	{
+		sum += pow(x, 2);
+		sumSq += x;
+	}
+	Dif = pow(sumSq, 2) - sum;
+	return Dif;
+}
