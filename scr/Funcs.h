@@ -2,6 +2,8 @@
 #pragma once
 #include<iostream>
 #include<math.h>
+#include<cstring>
+using namespace std;
 
 /*All declares*/
 int pEuler_Mul(int);
@@ -164,3 +166,49 @@ int pEuler_SumSq(int var)
 	Dif = pow(sumSq, 2) - sum;
 	return Dif;
 }
+
+
+//int LC_longestSubStr(string str)
+//{
+//	int i, j, substr;
+//	char temp[str.length];
+//	i = 0;
+//	substr = 1;
+//	bool flag;
+//
+//	//str.length atau strlen(str)
+//	while (i < str.length + 1) {
+//		j = i + 1;
+//		for (int k = 0; k < substr; k++)
+//		{
+//			temp[k] = str.at(i);
+//		}
+//		
+//		if (str.at(i) != str.at(j))
+//		{
+//			substr = substr + j;
+//			//Below: can convert into func
+//			for (int k = substr -2; k > 0; k--)
+//			{
+//				
+//				if (temp[k] == str.at(j))
+//				{
+//
+//				}
+//			}
+//			
+//			i++;
+//		}
+//
+//
+//		else
+//		{
+//			i = j + 1;
+//			
+//		}
+//
+//
+//	}
+//	
+//}
+
