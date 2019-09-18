@@ -8,9 +8,9 @@ using namespace std;
 bool NotDuplicateChar(string str, int target, int next)
 {
 	bool notdup = true;
-	for (int i = target; i > 0; i--)
+	for (int k = target; k >= 0; k--)
 	{
-		if (str.at(i) == str.at(next))
+		if (str.at(k) == str.at(next))
 		{
 			notdup = false;
 			continue;
