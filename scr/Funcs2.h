@@ -7,12 +7,17 @@ using namespace std;
 
 bool NotDuplicateChar(string str, int target, int next)
 {
-	bool dup = false;
-	if (str.at(target) != str.at(next))
+	bool notdup = true;
+	for (int i = target; i > 0; i--)
 	{
-		dup = true;
+		if (str.at(i) == str.at(next))
+		{
+			notdup = false;
+			continue;
+		}
 	}
-	return dup;
+	
+	return notdup;
 }
 
 int LC_longestSubStr(string str)
